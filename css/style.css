@@ -54,16 +54,20 @@
   .companies {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .companies>.company-logo-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin-bottom: 20px;
   }
 
   .container-title {
     display: flex;
     flex-direction: column-reverse;
-    justify-content: flex-start;
   }
 
   .title-image {
@@ -88,4 +92,3 @@
   margin: auto;
   border-radius: 100%;
 }
-
